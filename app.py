@@ -49,7 +49,7 @@ if calculate_button:
     experiment_data_list = []
 
     with st.spinner("Simulations are running..."):
-        num_sims = 3
+        num_sims = 10
         for _ in range(1, num_sims + 1):
             placeholder.text(f"Running simulation {_} out of {num_sims}...")
 
