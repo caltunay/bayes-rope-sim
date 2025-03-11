@@ -2,6 +2,8 @@
 
 This is a Bayesian A/B test sample size simulation to help you understand how long it takes to reach a conclusive experiment.
 
+App running at: https://cenan-altunay-bayes-rope-simulation.streamlit.app/
+
 ### Input Parameters
 - **Control/Variant A Conversion Rate**: Enter the baseline conversion rate for the control group or variant A.
 - **Practical Significance**: Enter your practical significance.
@@ -12,3 +14,5 @@ This is a Bayesian A/B test sample size simulation to help you understand how lo
 This simulation assumes the worst-case scenario where the treatment is just as good or worse than the practical significance. It will run 10 simulations over the course of a month but will stop early if conclusive results are found. However, it will always run for at least 14 days to ensure meaningful results.
 
 Happy experimenting!
+
+
